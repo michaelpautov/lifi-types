@@ -1,11 +1,9 @@
 {
   "name": "example-lifi-types",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Types for lifi projects",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "umd:main": "dist/umd/index.js",
-  "types": "dist/types/index.d.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
   "scripts": {
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
@@ -14,7 +12,6 @@
     "build:cjs": "node tools/cleanup cjs && tsc -p config/tsconfig.cjs.json",
     "build:esm": "node tools/cleanup esm && tsc -p config/tsconfig.esm.json",
     "build:umd": "node tools/cleanup umd && webpack --config config/webpack.config.js",
-    "build:types": "node tools/cleanup types && tsc -p config/tsconfig.types.json",
     "clean": "node tools/cleanup",
     "package": "npm run build && npm pack",
     "test": "jest --no-cache --runInBand",
