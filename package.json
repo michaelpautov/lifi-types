@@ -1,6 +1,6 @@
 {
   "name": "example-lifi-types",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Types for lifi projects",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
@@ -21,9 +21,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "dist"
-  ],
   "keywords": [
     "example",
     "typescript",
