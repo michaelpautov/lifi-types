@@ -1,10 +1,10 @@
 {
   "name": "example-lifi-types",
-  "version": "0.0.6",
+  "version": "0.1.4",
   "description": "Types for lifi projects",
-  "main": "dist/index.js",
-  "types": "dist/index.d.js",
-  "files": ["dist"],
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
