@@ -1,4 +1,4 @@
-import { Token } from './base.types'
+import { Token } from './base'
 
 // ESTIMATE
 export interface BaseEstimate {

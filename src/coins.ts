@@ -1,4 +1,4 @@
-import { ChainId, ChainKey, Coin, CoinKey, Token } from './base.types'
+import { ChainId, ChainKey, Coin, CoinKey, Token } from './base'
 
 export const defaultCoins: Array<Coin> = [
   // NATIVE COINS

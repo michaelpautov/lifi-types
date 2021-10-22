@@ -1,5 +1,5 @@
 import { BigNumber } from 'ethers'
-import { ChainKey, CoinKey } from './base.types'
+import { ChainKey, CoinKey } from './base'
 
 export interface Chain {
   key: ChainKey
