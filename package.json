@@ -20,6 +20,9 @@
     "test:cov": "jest --coverage --no-cache --runInBand",
     "addscope": "node tools/packagejson name @tomchen/example-typescript-package"
   },
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },
